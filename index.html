@@ -14,7 +14,7 @@ html {
   scroll-behavior: smooth;
 }
 .header {
-  position: absolute;
+  position: relative;
   width: 1600px;
   height: 80px;
   background-color: #D0D0D0;
@@ -38,11 +38,11 @@ html {
   text-align: center;
   margin-left: 25px;
 }
-a {
+.menu a {
   color: #FFFFFF;
   text-decoration: none;
 }
-a:hover {
+.menu a:hover {
   color: grey;
   transition: 1s;
 }
@@ -52,12 +52,13 @@ a:hover {
   bottom: 27px;
 }
 .welcome-banner {
+  position: relative;
   width: 1600px;
   height: 900px;
   background-color: #D0D0D0;
 }
 .welcome-banner .text {
-  position: absolute;
+  position: relative;
   top: 351px;
   margin-left: 524px;
   height: 203px;
@@ -107,7 +108,11 @@ a:hover {
   top: 808px;
   margin-left: 777.5px;
 }
+.arrow-down:hover {
+  cursor: pointer;
+}
 .about-us.bg {
+  position: relative;
   height: 371px;
   width: 1600px;
   background-color: #FFFFFF;
@@ -131,7 +136,7 @@ a:hover {
   line-height: 44px;
   text-align: center;  
 }
-.mauris-lacinia-porta {
+.about-us .text .mauris-lacinia-porta {
   position: relative;
   top: 83.5px;
   margin-left: 0.72px; 
@@ -145,7 +150,7 @@ a:hover {
   text-align: center;  
 }
 .introduction.bg {
-  position: absolute;
+  position: relative;
   height: 685px;
   width: 1600px;
   background-color: #F5F5F5;
@@ -189,6 +194,194 @@ a:hover {
   font-weight: 300;
   line-height: 30px;  
 }
+.portfolio.bg {
+  position: absolute;
+  height: 1193px;
+  width: 1600px;
+}
+.portfolio .text {
+  position: absolute;
+  top: 87px;
+  margin-left: 349px;
+  height: 114px;
+  width: 902px;
+}
+.text .portfolio {
+  position: absolute;
+  top: 0.5px;
+  margin-left: 389.5px;
+  height: 44px;
+  width: 123px;
+  color: #333333;
+  font-family: "Open Sans";
+  font-size: 32px;
+  font-weight: 300;
+  line-height: 44px;
+  text-align: center;
+}
+.portfolio .text .mauris-lacinia-porta {
+  position: absolute;
+  top: 83.5px;
+  margin-left: 0.72px;
+  height: 30px;
+  width: 900.57px;
+  color: #777777;
+  font-family: "Open Sans";
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 30px;
+  text-align: center;
+}
+.filter {
+  position: absolute;
+  top: 256px;
+  margin-left: 502px;
+  height: 21px;
+  width: 607px;
+  text-align: center;
+}
+.all, .design, .identity, .photography {
+  float: left;
+  color: #3498DB;
+  font-family: Raleway;
+  font-size: 11px;
+  font-weight: bold;
+  letter-spacing: 3.4px;
+  line-height: 11px;
+  text-align: center;
+  margin-right: 52px;
+}
+.web-design {
+  float: left;
+  color: #3498DB;
+  font-family: Raleway;
+  font-size: 11px;
+  font-weight: bold;
+  letter-spacing: 3.4px;
+  line-height: 11px;
+  text-align: center;
+}
+.filter a {
+  color: #3498DB;
+  text-decoration: none;
+}
+.filter a:hover {
+  padding-bottom: 8px;
+  border-bottom: 2px solid #3498DB;
+}
+.gallery {
+  position: absolute;
+  margin-top: 337px;
+  height: 801px;
+  width: 1600px;
+}
+.item-01 {
+  height: 400px;
+  width: 400px;
+  background-color: #AFAFAF;
+}
+.item-02 {
+  position: absolute;
+  top: 0;
+  margin-left: 400px;
+  height: 500px;
+  width: 400px;
+  background-color: #D0D0D0;
+}
+.item-03 {
+  position: absolute;
+  top: 500px;
+  margin-left: 400px;
+  height: 300px;
+  width: 400px;
+  background-color: #AFAFAF;
+}
+.item-04 {
+  position: absolute;
+  top: 0;
+  margin-left: 800px;
+  height: 300px;
+  width: 400px;
+  background-color: #A4A4A4;
+}
+.item-05 {
+  position: absolute;
+  top: 0;
+  margin-left: 1200px;
+  height: 400px;
+  width: 400px;
+  background-color: #D0D0D0;
+}
+.item-06 {
+  position: absolute;
+  top: 400px;
+  height: 400px;
+  width: 400px;
+  background-color: #A4A4A4;
+}
+.item-07 {
+  position: absolute;
+  top: 300px;
+  margin-left: 800px;
+  height: 500px;
+  width: 400px;
+  background-color: #AFAFAF;
+}
+.item-08 {
+  position: absolute;
+  top: 400px;
+  margin-left: 1200px;
+  height: 400px;
+  width: 400px;
+  background-color: #A4A4A4;
+}
+.hover-mask {
+  height: 455px;
+  width: 365px;
+}
+.rectangle-26 {
+  position: absolute;
+  top: 23px;
+  margin-left: 418.67px;
+  height: 454px;
+  width: 363.56px;
+  background-color: rgba(63,80,98,0.9);
+}
+.pinecone {
+  position: absolute;
+  top: 183px;
+  margin-left: 113.77px;
+  height: 21px;
+  width: 136px;
+  color: #FFFFFF;
+  font-family: Raleway;
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: 5.56px;
+  line-height: 21px;
+  text-align: center;
+}
+.print-photography {
+  position: absolute;
+  top: 220px;
+  margin-left: 102.77px;
+  height: 30px;
+  width: 158px;
+  color: #FFFFFF;
+  font-family: "Open Sans";
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 30px;
+  text-align: center;
+}
+.rectangle-84 {
+  position: absolute;
+  top: 270px;
+  margin-left: 136.77px;
+  height: 1px;
+  width: 90px;
+  background-color: #FFFFFF;
+}
 </style>
 <body>  
 
@@ -197,7 +390,7 @@ a:hover {
     <div class="home"><a href>HOME</a></div>
     <div class="features"><a href>FEATURES</a></div> 
     <div class="about-us"><a href="#about-us">ABOUT US</a></div> 
-    <div class="portfolio"><a href>PORTFOLIO</a></div> 
+    <div class="portfolio"><a href="#portfolio">PORTFOLIO</a></div> 
     <div class="servise"><a href>SERVISE</a></div> 
     <div class="contact-us"><a href>CONTACT US</a></div> 
     <div class="search"><a href><img src="search.svg"></a></div>
@@ -234,6 +427,37 @@ a:hover {
     </div>
   </div>
   <div class="img mask"></div>
+</div>
+
+<div class="portfolio bg" id="portfolio">
+  <div class="text">
+    <div class="portfolio">Portfolio</div>
+    <div class="mauris-lacinia-porta">Mauris lacinia porta faucibus. Fusce eu est ac eros vulputate mollis in ac.</div>
+  </div>
+  <div class="filter">
+    <div class="all"><a href>ALL</a></div>
+    <div class="design"><a href>DESIGN</a></div>
+    <div class="identity"><a href>IDENTITY</a></div>
+    <div class="photography"><a href>PHOTOGRAPHY</a></div>
+    <div class="web-design"><a href>WEB DESIGN</a></div>
+  </div>
+  <div class="gallery">
+    <div class="item-01"></div>
+    <div class="item-02"></div>
+    <div class="item-03"></div>
+    <div class="item-04"></div>
+    <div class="item-05"></div>
+    <div class="item-06"></div>
+    <div class="item-07"></div>
+    <div class="item-08"></div>
+    <div class="hover-mask">
+      <div class="rectangle-26">
+        <div class="pinecone">PINECONE</div>
+        <div class="print-photography">Print / Photography</div>
+        <div class="rectangle-84"></div>
+      </div>      
+    </div>  
+  </div>
 </div>
 
 </body>
